@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoTakumi</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/sobrenos.css">
+  <link rel="icon" href="/img/favicon.png" type="image/png">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Design & UX</a>
+        </li>
+      </ul>
+      <a href="index.html"><img src="img/logoNeoTakumi.png" id="logo-neo" alt="Logo da NeoTakumi" class="container__imagem"> </a>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu" class="opções__rotulo">
+          <li class="opções__item">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Fones</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Acessórios</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Garrafas Térmicas</a>
+          </li>
+        </ul>
+        <li class="opções__item"><a href="sobrenos.html" class="opções__link">Sobre Nós</a></li>
+      </ul>
+
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+          class="container__imagem container__imagem-transparente"></a>
+      <a href="#" class="container__link">
+        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
+  <div id="container-main-sobre">
+    <div id="conteudo-sobre">
+      <div id="img-esquerda">
+        <img src="img/grafismo.png">
+      </div>
+
+      <div id="secao-direita">  
+        <h1>Nossa História - NeoTakumi</h1>
+        <p>
+          A Neotakumi nasceu de um sonho: unir tradição e inovação em um único espaço, oferecendo produtos de alta qualidade que refletem autenticidade e originalidade. Inspirada pela essência da palavra japonesa "Takumi", que significa "artesão" ou "mestre", a marca se dedica a entregar experiências únicas aos seus clientes, combinando o cuidado artesanal com a eficiência da tecnologia moderna.
+
+Tudo começou com uma pequena equipe apaixonada por inovação, design e cultura. Desde o início, nosso objetivo foi claro: criar um e-commerce que oferecesse produtos cuidadosamente selecionados, valorizando tanto o visual quanto a funcionalidade. Cada item presente em nosso catálogo é escolhido com atenção aos detalhes, para garantir que nossos clientes recebam mais do que um simples produto, mas sim um pedaço de criatividade e excelência.<br> Hoje, nos orgulhamos de ser uma marca que inspira confiança, oferecendo uma experiência de compra online prática, segura e marcante. A Neotakumi continua a crescer, movida pelo desejo de conectar pessoas a produtos que elevem seu dia a dia, sem abrir mão da originalidade e do compromisso com a satisfação do cliente.
+        </p>
+      </div>
+
+    </div>
+  </div>
+  
+
+  <footer class="rodapé" id="footer-sobre">
+    <div id="container-direitos">
+      <img src="img/logoNeoTakumi.png"/>
+      <p>
+        Todos os diretos reservados - NeoTakumi.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>

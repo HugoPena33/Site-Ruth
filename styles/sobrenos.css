@@ -1,0 +1,49 @@
+#container-main-sobre {
+    width: 100vw;
+    height: 50vw;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+
+#conteudo-sobre {
+    margin-top: 5vw;
+    width: 90vw;
+    height: 40vw;
+    background-color:#808080;
+    position: absolute;
+    display: flex;
+}
+
+#img-esquerda{
+    width: 30vw;
+    height: max-content;
+}
+
+#img-esquerda img {
+    height: 40vw;
+}
+
+#secao-direita {
+    width: 50vw;
+    height: 40vw;
+    margin-left: 6.2vw;
+    margin-top: 5vw;
+    color: white;
+}
+
+#secao-direita h1 {
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+#secao-direita p {
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    line-height: 1.5vw;
+}
+
+#footer-sobre {
+    margin-top: 48vw;
+    z-index: 1;
+}
